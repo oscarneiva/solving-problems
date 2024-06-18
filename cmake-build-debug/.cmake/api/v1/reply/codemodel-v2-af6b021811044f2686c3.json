@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/oscarneiva/Desktop/leetcode/cmake-build-debug",
-		"source" : "/Users/oscarneiva/Desktop/leetcode"
+		"build" : "/Users/oscarneiva/Desktop/solving-problems/cmake-build-debug",
+		"source" : "/Users/oscarneiva/Desktop/solving-problems"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 5
+		"minor" : 6
 	}
 }
