@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/oscarneiva/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.17011.124/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake"
+CMAKE_COMMAND = /Users/oscarneiva/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake
 
 # The command to remove a file.
-RM = "/Users/oscarneiva/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.17011.124/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake" -E rm -f
+RM = /Users/oscarneiva/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/oscarneiva/Desktop/solving-problems/cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
-	"/Users/oscarneiva/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.17011.124/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+	/Users/oscarneiva/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	"/Users/oscarneiva/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.17011.124/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Users/oscarneiva/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named leetcode
+# Target rules for targets named solving-problems
 
 # Build rule for target.
-leetcode: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 leetcode
-.PHONY : leetcode
+solving-problems: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 solving-problems
+.PHONY : solving-problems
 
 # fast build rule for target.
-leetcode/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/build
-.PHONY : leetcode/fast
+solving-problems/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/solving-problems.dir/build.make CMakeFiles/solving-problems.dir/build
+.PHONY : solving-problems/fast
 
-add-two-numbers.o: add-two-numbers.cpp.o
-.PHONY : add-two-numbers.o
+obi/jogo.o: obi/jogo.cpp.o
+.PHONY : obi/jogo.o
 
 # target to build an object file
-add-two-numbers.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/add-two-numbers.cpp.o
-.PHONY : add-two-numbers.cpp.o
+obi/jogo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/solving-problems.dir/build.make CMakeFiles/solving-problems.dir/obi/jogo.cpp.o
+.PHONY : obi/jogo.cpp.o
 
-add-two-numbers.i: add-two-numbers.cpp.i
-.PHONY : add-two-numbers.i
+obi/jogo.i: obi/jogo.cpp.i
+.PHONY : obi/jogo.i
 
 # target to preprocess a source file
-add-two-numbers.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/add-two-numbers.cpp.i
-.PHONY : add-two-numbers.cpp.i
+obi/jogo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/solving-problems.dir/build.make CMakeFiles/solving-problems.dir/obi/jogo.cpp.i
+.PHONY : obi/jogo.cpp.i
 
-add-two-numbers.s: add-two-numbers.cpp.s
-.PHONY : add-two-numbers.s
+obi/jogo.s: obi/jogo.cpp.s
+.PHONY : obi/jogo.s
 
 # target to generate assembly for a file
-add-two-numbers.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/add-two-numbers.cpp.s
-.PHONY : add-two-numbers.cpp.s
+obi/jogo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/solving-problems.dir/build.make CMakeFiles/solving-problems.dir/obi/jogo.cpp.s
+.PHONY : obi/jogo.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... leetcode"
-	@echo "... add-two-numbers.o"
-	@echo "... add-two-numbers.i"
-	@echo "... add-two-numbers.s"
+	@echo "... solving-problems"
+	@echo "... obi/jogo.o"
+	@echo "... obi/jogo.i"
+	@echo "... obi/jogo.s"
 .PHONY : help
 
 

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/oscarneiva/Desktop/solving-problems/add-two-numbers.cpp" "CMakeFiles/leetcode.dir/add-two-numbers.cpp.o" "gcc" "CMakeFiles/leetcode.dir/add-two-numbers.cpp.o.d"
+  "/Users/oscarneiva/Desktop/solving-problems/obi/jogo.cpp" "CMakeFiles/solving-problems.dir/obi/jogo.cpp.o" "gcc" "CMakeFiles/solving-problems.dir/obi/jogo.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -45,10 +45,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/oscarneiva/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.17011.124/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake"
+CMAKE_COMMAND = /Users/oscarneiva/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake
 
 # The command to remove a file.
-RM = "/Users/oscarneiva/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.17011.124/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake" -E rm -f
+RM = /Users/oscarneiva/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /Users/oscarneiva/Desktop/solving-problems/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/leetcode.dir/all
+all: CMakeFiles/solving-problems.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/leetcode.dir/clean
+clean: CMakeFiles/solving-problems.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/leetcode.dir
+# Target rules for target CMakeFiles/solving-problems.dir
 
 # All Build rule for target.
-CMakeFiles/leetcode.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/oscarneiva/Desktop/solving-problems/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target leetcode"
-.PHONY : CMakeFiles/leetcode.dir/all
+CMakeFiles/solving-problems.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/solving-problems.dir/build.make CMakeFiles/solving-problems.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/solving-problems.dir/build.make CMakeFiles/solving-problems.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/oscarneiva/Desktop/solving-problems/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target solving-problems"
+.PHONY : CMakeFiles/solving-problems.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/leetcode.dir/rule: cmake_check_build_system
+CMakeFiles/solving-problems.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oscarneiva/Desktop/solving-problems/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/leetcode.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/solving-problems.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oscarneiva/Desktop/solving-problems/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/leetcode.dir/rule
+.PHONY : CMakeFiles/solving-problems.dir/rule
 
 # Convenience name for target.
-leetcode: CMakeFiles/leetcode.dir/rule
-.PHONY : leetcode
+solving-problems: CMakeFiles/solving-problems.dir/rule
+.PHONY : solving-problems
 
 # clean rule for target.
-CMakeFiles/leetcode.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/clean
-.PHONY : CMakeFiles/leetcode.dir/clean
+CMakeFiles/solving-problems.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/solving-problems.dir/build.make CMakeFiles/solving-problems.dir/clean
+.PHONY : CMakeFiles/solving-problems.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

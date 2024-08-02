@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "leetcode",
+					"name" : "solving-problems",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "leetcode::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-leetcode-Debug-b8bd7cdb8fd9768d89c7.json",
-					"name" : "leetcode",
+					"id" : "solving-problems::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-solving-problems-Debug-cdbdb176e77ba77c922a.json",
+					"name" : "solving-problems",
 					"projectIndex" : 0
 				}
 			]
