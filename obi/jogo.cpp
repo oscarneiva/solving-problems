@@ -14,7 +14,7 @@ int main(){
     for (int i = 0; i < n; ++i) {
         cin >> row;
         for (int j = 0; j < row.size(); ++j) {
-            arr[i][j] = row.at(j) - '0';
+            arr[i][j] = row.at(j) - '0'; // subtraction using ascii table as reference
         }
     }
 
